@@ -174,7 +174,7 @@ GET /api/users?username=levih
 }
 ```
 
-**Get users filtered by username:**
+**Get users with invalid page:**
 
 ```bash
 GET /api/users?page=0&size=10
