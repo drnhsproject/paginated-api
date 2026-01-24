@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: pagination
+
+server:
+  port: 8080
+
+external:
+  api:
+    base-url: https://dummyjson.com
+    users-endpoint: /users
+    timeout: 5000
+
+pagination:
+  default-page: 1
+  default-size: 10
+  max-size: 100
+
+cache:
+  ttl-seconds: 600 # 10 minutes in seconds
